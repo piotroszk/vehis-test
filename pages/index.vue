@@ -51,7 +51,7 @@
     <p class="text-green-700">
       {{ isNaN(premium) ? premium : `Składka: ${premium} zł netto / ${(premium * 1.23).toFixed(2)} zł brutto` }}
     </p>
-    <p v-if="paymentPlan > 1 && carValueNet < 400000" class="text-green-700">
+    <p v-if="paymentPlan > 1 && carValueNet < 400000 && !isNaN(premium)" class="text-green-700">
       Rata: {{ (premium / paymentPlan).toFixed(2) }} zł netto / {{ (premium / paymentPlan  * 1.23).toFixed(2) }} zł brutto
     </p>
   </div>
