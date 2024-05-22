@@ -2,24 +2,24 @@
 
 ## Jak uruchomić
 
-1. Sklonuj repozytorium:
+1. Clone repo:
     ```bash
     git clone https://github.com/piotroszk/vehis-test.git
     cd vehis-test
     ```
 
-2. Zainstaluj zależności:
+2. Install dependencies:
     ```bash
     npm install
     ```
 
-3. Uruchom aplikację:
+3. Run app:
     ```bash
     npm run dev
     ```
 
-4. Przejdź do `http://localhost:3000`, aby zobaczyć działające narzędzie.
+4. Go to `http://localhost:3000`
 
 ## Opis
 
-Narzędzie do szacowania składki ubezpieczenia OC/AC. Wprowadź wartość samochodu, wybierz rok produkcji oraz inne opcje, aby uzyskać oszacowanie składki.
+Tool for estimating third-party liability/comprehensive insurance premium. Enter the value of the car, select the year of production, and other options to obtain an estimate of the insurance premium.
