@@ -5,7 +5,6 @@
 1. Clone repo:
     ```bash
     git clone https://github.com/piotroszk/vehis-test.git
-    cd vehis-test
     ```
 
 2. Go to project directory
