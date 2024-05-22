@@ -118,6 +118,10 @@ const updateNetFromGross = () => {
 }
 
 const calculatePremium = async () => {
+  if (carYear.value === null) {
+    premium.value = "Wybierz rok produkcji auta."
+    return
+  }
   if (carYear.value < currentYear - 4) {
     premium.value = "Nie obsługujemy samochodów starszych niż 5 lat."
     return
