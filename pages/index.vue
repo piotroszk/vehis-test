@@ -73,7 +73,7 @@ import {
 
 // Current year and 4 previous years
 const currentYear = new Date().getFullYear()
-const availableYears = Array.from({ length: 5 }, (_, i) => currentYear - i)
+const availableYears = Array.from({ length: 6 }, (_, i) => currentYear - i)
 
 // Payment plans
 const paymentPlans = [
