@@ -1,6 +1,6 @@
 # Vehis test 
 
-## Jak uruchomić
+## How to run
 
 1. Clone repo:
     ```bash
@@ -8,18 +8,23 @@
     cd vehis-test
     ```
 
-2. Install dependencies:
+2. Go to project directory
+    ```bash
+    cd vehis-test
+    ```
+
+3. Install dependencies:
     ```bash
     npm install
     ```
 
-3. Run app:
+4. Run app:
     ```bash
     npm run dev
     ```
 
 4. Go to `http://localhost:3000`
 
-## Opis
+## Description
 
 Tool for estimating third-party liability/comprehensive insurance premium. Enter the value of the car, select the year of production, and other options to obtain an estimate of the insurance premium.
